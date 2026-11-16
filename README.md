@@ -148,8 +148,12 @@ TobiAI có đăng nhập Google và khu vực quản lý bản quyền trong ứ
 
 ### Get Key miễn phí 24 giờ
 
+Dịch vụ Get Key hiện dùng **Link4M**. Việc chuyển nhà cung cấp đã triển khai trên
+máy chủ; người dùng beta.29 không cần cài lại ứng dụng. Tạo link Link4M đã được
+kiểm tra online thành công với phản hồi HTTPS hợp lệ.
+
 1. Mở khu vực bản quyền và bấm **Get Key 24h (miễn phí)**.
-2. Trình duyệt mở link YeuMoney; thực hiện các bước được hiển thị để đến trang kết quả.
+2. Trình duyệt mở link Link4M; thực hiện các bước được hiển thị để đến trang kết quả.
 3. Sao chép mã xác minh dạng **`XXXX-XXXX`**.
 4. Quay lại TobiAI, nhập mã và bấm **Nhận key**.
 5. Chờ máy chủ xác thực thành công; trạng thái và thời hạn key hiển thị trong ứng dụng.
@@ -179,7 +183,11 @@ Chữ ký gói cập nhật là cơ chế riêng với chữ ký Windows: bộ c
 
 Bản phát hành đã đạt **326 kiểm thử native**, kiểm tra khởi động EXE và nâng cấp từ beta.28 trên bản sao môi trường kiểm thử. Các file đã đăng được đối chiếu hash; gói cập nhật tải lại đã được xác minh chữ ký và giải nén.
 
-Tạo link YeuMoney đã được kiểm tra online thành công. Toàn bộ bước quảng cáo → nhập mã → nhận key bằng tài khoản thật, thanh toán thật và cài đặt trên máy sạch vẫn cần kiểm thử riêng; các kiểm tra tự động không thay thế những bước này.
+Khi phát hành beta.29, tạo link YeuMoney đã được kiểm tra online thành công. Sau đó
+dịch vụ Get Key chuyển sang Link4M và tạo link Link4M cũng đã được kiểm tra online
+thành công. Toàn bộ bước quảng cáo → nhập mã → nhận key bằng tài khoản thật, thanh
+toán thật và cài đặt trên máy sạch vẫn cần kiểm thử riêng; các kiểm tra tự động
+không thay thế những bước này.
 
 ## Câu hỏi thường gặp
 
